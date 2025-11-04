@@ -28,5 +28,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SULPHUR, Models.GENERATED);
         itemModelGenerator.register(ModItems.TANZANITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.JINGLE_BELLS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAULIFLOWER_STEW, Models.GENERATED);
     }
 }

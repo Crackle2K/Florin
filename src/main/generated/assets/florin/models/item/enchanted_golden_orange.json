@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "florin:item/golden_orange"
+    "layer0": "florin:item/enchanted_golden_orange"
   }
 }

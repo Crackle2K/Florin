@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ENCHANTED_GOLDEN_ORANGE);
                         entries.add(ModItems.CLOVER);
                         entries.add(ModItems.JINGLE_BELLS_MUSIC_DISC);
+                        entries.add(ModItems.CAULIFLOWER_STEW);
                     }).build());
 
 

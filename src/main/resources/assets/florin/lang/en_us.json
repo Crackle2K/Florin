@@ -7,6 +7,7 @@
   "item.florin.golden_orange": "Golden Orange",
   "item.florin.enchanted_golden_orange": "Enchanted Golden Orange",
   "item.florin.clover": "Four-leaf clover",
+  "item.florin.cauliflower_stew": "Cauliflower Stew",
 
   "itemgroup.florin.florin_items": "Florin",
 
@@ -15,7 +16,7 @@
 
   "effect.florin.webborn": "Webborn",
 
-  "item.minecraft.potion.effect.webborn_potion": "Webborn Potion",
-  "item.minecraft.splash_potion.effect.webborn_potion": "Weborn Splash Potion",
-  "item.minecraft.lingering_potion.effect.webborn_potion": "Webborn Lingering Potion"
+  "item.minecraft.potion.effect.webborn_potion": "Potion of Webborn",
+  "item.minecraft.splash_potion.effect.webborn_potion": "Splash Potion of Webborn",
+  "item.minecraft.lingering_potion.effect.webborn_potion": "Lingering Potion of Webborn"
 }

@@ -18,5 +18,9 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 1600), 1f).build();
+    public static final FoodComponent CAULIFLOWER_STEW = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 400), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
+            .alwaysEdible().build();
 
 }
