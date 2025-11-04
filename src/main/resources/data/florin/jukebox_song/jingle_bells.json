@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.florin.jingle_bells_music_disc.desc"
+  },
+  "length_in_seconds": 102.0,
+  "sound_event": "florin:jingle_bells"
+}

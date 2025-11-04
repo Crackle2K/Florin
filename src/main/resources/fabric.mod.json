@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "florin",
+	"version": "${version}",
+	"name": "Florin",
+	"description": "Pretty much an entire modpack built into a single mod.",
+	"authors": [
+		"Crackle"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Crackle2K/Florin"
+	},
+	"license": "MIT",
+	"icon": "assets/florin/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.crackle.florin.Florin"
+		],
+		"fabric-datagen": [
+			"net.crackle.florin.FlorinDataGenerator"
+		],
+        "client": [
+           "net.crackle.florin.FlorinClient"
+        ]
+	},
+	"mixins": [
+		"florin.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

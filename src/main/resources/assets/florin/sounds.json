@@ -1,0 +1,10 @@
+{
+  "jingle_bells": {
+    "sounds": [
+      {
+        "name": "florin:jingle_bells",
+        "stream": true
+      }
+    ]
+  }
+}

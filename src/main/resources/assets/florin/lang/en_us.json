@@ -1,0 +1,21 @@
+{
+  "item.florin.tanzanite": "Tanzanite",
+  "item.florin.cauliflower": "Cauliflower",
+  "item.florin.sulphur": "Sulfur",
+  "item.florin.rock": "Rock",
+  "item.florin.orange": "Orange",
+  "item.florin.golden_orange": "Golden Orange",
+  "item.florin.enchanted_golden_orange": "Enchanted Golden Orange",
+  "item.florin.clover": "Four-leaf clover",
+
+  "itemgroup.florin.florin_items": "Florin",
+
+  "item.florin.jingle_bells_music_disc": "Music Disc",
+  "item.florin.jingle_bells_music_disc.desc": "James Pierpont - Jingle Bells",
+
+  "effect.florin.webborn": "Webborn",
+
+  "item.minecraft.potion.effect.webborn_potion": "Webborn Potion",
+  "item.minecraft.splash_potion.effect.webborn_potion": "Weborn Splash Potion",
+  "item.minecraft.lingering_potion.effect.webborn_potion": "Webborn Lingering Potion"
+}
