@@ -18,6 +18,7 @@ public class ModTags {
     public static class Items {
         public static final TagKey<Item> MAGICAL_ITEMS = createTag("magical_items");
 
+
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(Florin.MOD_ID, name));
         }

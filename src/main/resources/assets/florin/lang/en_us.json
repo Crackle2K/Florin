@@ -18,5 +18,6 @@
 
   "item.minecraft.potion.effect.webborn_potion": "Potion of Webborn",
   "item.minecraft.splash_potion.effect.webborn_potion": "Splash Potion of Webborn",
-  "item.minecraft.lingering_potion.effect.webborn_potion": "Lingering Potion of Webborn"
+  "item.minecraft.lingering_potion.effect.webborn_potion": "Lingering Potion of Webborn",
+  "item.minecraft.tipped_arrow.effect.webborn_potion": "Arrow of Webborn"
 }

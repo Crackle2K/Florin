@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEffects {
     public static final RegistryEntry<StatusEffect> WEBBORN = registerStatusEffect("webborn",
-            new WebbornEffect(StatusEffectCategory.NEUTRAL, 0x36ebab)
+            new WebbornEffect(StatusEffectCategory.NEUTRAL, 0xFFFFFF)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             Identifier.of(Florin.MOD_ID, "webborn"), -0.25f,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL)
