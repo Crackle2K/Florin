@@ -19,6 +19,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.MAGICAL_ITEMS)
                 .add(ModItems.ENCHANTED_GOLDEN_ORANGE)
                 .add(Items.NETHER_STAR)
-                .add(ModItems.CLOVER);
+                .add(ModItems.CLOVER)
+                .add(Items.TOTEM_OF_UNDYING)
+                .add(Items.ENCHANTED_GOLDEN_APPLE);
     }
 }
