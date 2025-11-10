@@ -21,6 +21,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.NETHER_STAR)
                 .add(ModItems.CLOVER)
                 .add(Items.TOTEM_OF_UNDYING)
-                .add(Items.ENCHANTED_GOLDEN_APPLE);
+                .add(Items.ENCHANTED_GOLDEN_APPLE)
+                .add(Items.ENCHANTING_TABLE);
     }
 }
