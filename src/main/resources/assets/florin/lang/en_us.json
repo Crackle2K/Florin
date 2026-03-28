@@ -1,13 +1,17 @@
 {
   "item.florin.tanzanite": "Tanzanite",
   "item.florin.cauliflower": "Cauliflower",
+  "item.florin.cauliflower_seeds": "Cauliflower Seeds",
   "item.florin.sulphur": "Sulfur",
   "item.florin.rock": "Rock",
   "item.florin.orange": "Orange",
   "item.florin.golden_orange": "Golden Orange",
   "item.florin.enchanted_golden_orange": "Enchanted Golden Orange",
   "item.florin.clover": "Four-leaf clover",
-  "item.florin.cauliflower_stew": "Cauliflower Stew",
+  "item.florin.pineapple": "Pineapple",
+  "item.florin.copper_cog": "Copper Cog",
+  "item.florin.iron_cog": "Iron Cog",
+  "item.florin.gold_cog": "Gold Cog",
 
   "itemgroup.florin.florin_items": "Florin",
 

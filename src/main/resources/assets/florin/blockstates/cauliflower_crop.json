@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "florin:block/cauliflower_crop_stage0" },
+    "age=1": { "model": "florin:block/cauliflower_crop_stage1" },
+    "age=2": { "model": "florin:block/cauliflower_crop_stage2" },
+    "age=3": { "model": "florin:block/cauliflower_crop_stage3" },
+    "age=4": { "model": "florin:block/cauliflower_crop_stage4" },
+    "age=5": { "model": "florin:block/cauliflower_crop_stage5" },
+    "age=6": { "model": "florin:block/cauliflower_crop_stage6" }
+  }
+}
+

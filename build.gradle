@@ -44,10 +44,6 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    modImplementation("vectorwing:FarmersDelight:${project.fdfr_version}") {
-        exclude(group: "net.fabricmc")
-    }
-    modImplementation "curse.maven:corn-delight-fabric-899614:6193486"
 
 }
 
@@ -57,6 +53,18 @@ processResources {
 	filesMatching("fabric.mod.json") {
 		expand "version": inputs.properties.version
 	}
+
+	// Avoid failing the build if generated and source assets contain duplicates (common during development)
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+// Also ensure Jar/Copy tasks (including sourcesJar) exclude duplicates
+tasks.withType(org.gradle.api.tasks.Copy).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.withType(Jar).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
 tasks.withType(JavaCompile).configureEach {

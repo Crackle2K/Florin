@@ -19,7 +19,10 @@ public class ModItems {
     public static final Item GOLDEN_ORANGE = registerItem("golden_orange", new Item(new Item.Settings().rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_ORANGE)));
     public static final Item ENCHANTED_GOLDEN_ORANGE = registerItem("enchanted_golden_orange", new EnchantedGoldenOrangeItem(new Item.Settings().rarity(Rarity.EPIC).food(ModFoodComponents.ENCHANTED_GOLDEN_ORANGE)));
     public static final Item JINGLE_BELLS_MUSIC_DISC = registerItem("jingle_bells_music_disc", new Item(new Item.Settings().jukeboxPlayable(ModSounds.JINGLE_BELLS_KEY).maxCount(1).rarity(Rarity.RARE)));
-    public static final Item CAULIFLOWER_STEW = registerItem("cauliflower_stew", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER_STEW).maxCount(1)));
+    public static final Item PINEAPPLE = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
+    public static final Item COPPER_COG = registerItem("copper_cog", new Item(new Item.Settings()));
+    public static final Item IRON_COG = registerItem("iron_cog", new Item(new Item.Settings()));
+    public static final Item GOLD_COG = registerItem("gold_cog", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Florin.MOD_ID, name), item);

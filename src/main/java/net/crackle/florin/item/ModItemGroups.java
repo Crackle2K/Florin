@@ -1,6 +1,7 @@
 package net.crackle.florin.item;
 
 import net.crackle.florin.Florin;
+import net.crackle.florin.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.crackle.florin.Florin;
 import net.minecraft.item.ItemGroup;
@@ -18,13 +19,17 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.TANZANITE);
                         entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModBlocks.CAULIFLOWER_SEEDS);
                         entries.add(ModItems.SULPHUR);
                         entries.add(ModItems.ORANGE);
                         entries.add(ModItems.GOLDEN_ORANGE);
                         entries.add(ModItems.ENCHANTED_GOLDEN_ORANGE);
                         entries.add(ModItems.CLOVER);
                         entries.add(ModItems.JINGLE_BELLS_MUSIC_DISC);
-                        entries.add(ModItems.CAULIFLOWER_STEW);
+                        entries.add(ModItems.PINEAPPLE);
+                        entries.add(ModItems.COPPER_COG);
+                        entries.add(ModItems.IRON_COG);
+                        entries.add(ModItems.GOLD_COG);
                     }).build());
 
 

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "florin:item/iron_cog"
+  }
+}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "florin:item/clover"
+  }
+}
+
