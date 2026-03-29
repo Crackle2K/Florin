@@ -1,6 +1,7 @@
 package net.crackle.florin.item;
 
 import net.crackle.florin.Florin;
+import net.crackle.florin.item.custom.CauliflowerItem;
 import net.crackle.florin.item.custom.CloverItem;
 import net.crackle.florin.item.custom.EnchantedGoldenOrangeItem;
 import net.crackle.florin.sound.ModSounds;
@@ -12,7 +13,7 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     public static final Item TANZANITE = registerItem("tanzanite", new Item(new Item.Settings()));
-    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new CauliflowerItem(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
     public static final Item SULPHUR = registerItem("sulphur", new Item(new Item.Settings()));
     public static final Item CLOVER = registerItem("clover", new CloverItem(new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON)));
     public static final Item ORANGE = registerItem("orange", new Item(new Item.Settings().food(ModFoodComponents.ORANGE)));

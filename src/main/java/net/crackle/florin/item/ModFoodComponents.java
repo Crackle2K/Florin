@@ -3,7 +3,8 @@ package net.crackle.florin.item;
 import net.minecraft.component.type.FoodComponent;
 
 public class ModFoodComponents {
-    public static final FoodComponent CAULIFLOWER = new FoodComponent.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodComponent CAULIFLOWER = new FoodComponent.Builder().nutrition(3).saturationModifier(0.25f)
+            .statusEffect(new net.minecraft.entity.effect.StatusEffectInstance(vectorwing.farmersdelight.common.registry.ModEffects.COMFORT, 600), 1.0f).build();
     public static final FoodComponent ORANGE = new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f)
             .statusEffect(new net.minecraft.entity.effect.StatusEffectInstance(net.minecraft.entity.effect.StatusEffects.STRENGTH, 200), 0.2f).build();
     public static final FoodComponent GOLDEN_ORANGE = new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f)
