@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "florin:item/sulphur"
+    "layer0": "florin:item/enchanted_golden_apple_core"
   }
 }

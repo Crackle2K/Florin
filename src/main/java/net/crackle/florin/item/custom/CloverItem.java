@@ -10,7 +10,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 public class CloverItem extends Item {
-    private static final int COOLDOWN_TICKS = 60 * 20;
+    private static final int COOLDOWN_TICKS = 30 * 20;
     private static final int EFFECT_DURATION = 20 * 20;
 
     public CloverItem(Settings settings) {

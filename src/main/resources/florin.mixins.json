@@ -3,7 +3,8 @@
 	"package": "net.crackle.florin.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"AppleCoreItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
