@@ -1,6 +1,7 @@
 package net.crackle.florin;
 
 import net.crackle.florin.block.ModBlocks;
+import net.crackle.florin.world.ModWorldGeneration;
 import net.crackle.florin.effect.ModEffects;
 import net.crackle.florin.item.ModItemGroups;
 import net.crackle.florin.item.ModItems;
@@ -34,6 +35,8 @@ public class Florin implements ModInitializer {
         ModBlocks.registerModBlocks();
 
         ModItemGroups.registerItemGroups();
+
+        ModWorldGeneration.generateOres();
 
         ModEffects.registerEffects();
         ModPotions.registerPotions();

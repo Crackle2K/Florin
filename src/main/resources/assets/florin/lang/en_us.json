@@ -22,6 +22,11 @@
   "item.florin.platinum_ingot": "Platinum Ingot",
   "item.florin.electronic_circuit": "Circuit Board",
   "item.florin.broken_electronic_circuit": "Broken Circuit Board",
+  "item.florin.electronic_detonator": "Electronic Detonator",
+  "item.florin.broken_electronic_detonator": "Broken Electronic Detonator",
+
+  "block.florin.platinum_ore": "Platinum Ore",
+  "block.florin.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
   "itemgroup.florin.florin_items": "Florin",
 

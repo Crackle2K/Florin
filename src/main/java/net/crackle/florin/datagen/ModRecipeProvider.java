@@ -3,10 +3,12 @@ package net.crackle.florin.datagen;
 import net.crackle.florin.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.data.server.recipe.CookingRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -60,5 +62,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', BUTTONS)
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(exporter);
+
+        CookingRecipeJsonBuilder.createSmelting(
+                        Ingredient.ofItems(ModItems.RAW_PLATINUM),
+                        RecipeCategory.MISC,
+                        ModItems.PLATINUM_INGOT,
+                        0.7f,
+                        200)
+                .criterion(hasItem(ModItems.RAW_PLATINUM), conditionsFromItem(ModItems.RAW_PLATINUM))
+                .offerTo(exporter, Identifier.of("florin", "platinum_ingot_from_smelting"));
     }
 }

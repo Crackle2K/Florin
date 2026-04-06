@@ -1,23 +1,25 @@
-// 1.21.1	2026-04-04T16:32:44.5274098	Florin/Model Definitions
+// 1.21.1	2026-04-06T09:33:26.985788	Florin/Model Definitions
 963fa928b7b5796ab480d110aee7cf90b9f9f81c assets\florin\models\item\jingle_bells_music_disc.json
 f49cc7ec43aa47d798e63870d05461843941676d assets\florin\models\item\electronic_circuit.json
-115d4595ca5928ebd1a7110e400d312850752e6b assets\florin\models\item\sharpened_nail.json
-5dbdc94070c486213ac456015226113691553075 assets\florin\models\item\cauliflower.json
+669c009b623d85d11404bd05606fb5a0f26d3f92 assets\florin\models\item\broken_electronic_detonator.json
 7a7aebf18ad7ceb6e08e36b3954e662e6336f469 assets\florin\models\item\enchanted_golden_apple_core.json
 8717f332f6d5b395ce27a792987eda6a8989d22d assets\florin\models\item\broken_electronic_circuit.json
+be1df739e4c69b51d677c308012650dfd247a014 assets\florin\models\item\electronic_detonator.json
+da5405811c4706c78ea2df3fbe4d52f53650b559 assets\florin\models\item\golden_apple_core.json
+077e68e7d14767f477f8ac6de48081d233ed93df assets\florin\models\item\orange.json
+16340cfe79fa6c618ef1217b904fbcc721eac435 assets\florin\models\item\platinum_ingot.json
+8775580ec43a819efbd8bb7abd83e1ddcaab1122 assets\florin\models\item\pineapple.json
+6376c79a72b36e0a5f2914779c52837458f1d7b9 assets\florin\models\item\enchanted_golden_orange.json
+9846c783ede185c33a633a926861e62605d93b21 assets\florin\models\item\clover.json
+057db0ce1e7441bccae403ebf21244f743c969ce assets\florin\models\item\old_nail.json
+030743c2c6abd78b5076b9a829d9b91f03849b8c assets\florin\models\item\golden_orange.json
+115d4595ca5928ebd1a7110e400d312850752e6b assets\florin\models\item\sharpened_nail.json
+5dbdc94070c486213ac456015226113691553075 assets\florin\models\item\cauliflower.json
 d84d5ea1ea730f3aee5f83d765b3175afb967bdc assets\florin\models\item\pure_nail.json
 1b2a932650881d72778c4738febbdaf1f649da84 assets\florin\models\item\raw_platinum.json
 9ca515345ddd051b030548154b51f35b23702736 assets\florin\models\item\apple_core.json
 70dbf17f02901637155b035d30f276d452365f4d assets\florin\models\item\channelled_nail.json
 6b2c55ae16088b22447ac3b4dcb8906f9dd18a1d assets\florin\models\item\coiled_nail.json
-da5405811c4706c78ea2df3fbe4d52f53650b559 assets\florin\models\item\golden_apple_core.json
-077e68e7d14767f477f8ac6de48081d233ed93df assets\florin\models\item\orange.json
-16340cfe79fa6c618ef1217b904fbcc721eac435 assets\florin\models\item\platinum_ingot.json
 cf40c468208c0429097ef9feb3f4898101bd9299 assets\florin\models\item\gold_cog.json
-8775580ec43a819efbd8bb7abd83e1ddcaab1122 assets\florin\models\item\pineapple.json
 32b8cbf1acaa77f116c91bbb48d7e3869a9bc1e9 assets\florin\models\item\iron_cog.json
-6376c79a72b36e0a5f2914779c52837458f1d7b9 assets\florin\models\item\enchanted_golden_orange.json
 1ab12fc3466164fda4533942faa43d59cc35f023 assets\florin\models\item\copper_cog.json
-9846c783ede185c33a633a926861e62605d93b21 assets\florin\models\item\clover.json
-057db0ce1e7441bccae403ebf21244f743c969ce assets\florin\models\item\old_nail.json
-030743c2c6abd78b5076b9a829d9b91f03849b8c assets\florin\models\item\golden_orange.json

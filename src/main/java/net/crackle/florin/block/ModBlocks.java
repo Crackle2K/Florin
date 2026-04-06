@@ -17,6 +17,14 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+    public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE)
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
+            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE)
+                    .sounds(BlockSoundGroup.DEEPSLATE)));
+
     // Cauliflower crop block (no BlockItem)
     public static final Block CAULIFLOWER_CROP = registerBlockNoItem("cauliflower_crop",
             new CauliflowerCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT).ticksRandomly().noCollision().breakInstantly().sounds(BlockSoundGroup.CROP)));

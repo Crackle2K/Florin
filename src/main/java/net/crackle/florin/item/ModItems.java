@@ -5,6 +5,7 @@ import net.crackle.florin.item.custom.CauliflowerItem;
 import net.crackle.florin.item.custom.CloverItem;
 import net.crackle.florin.item.custom.EnchantedAppleCoreItem;
 import net.crackle.florin.item.custom.EnchantedGoldenOrangeItem;
+import net.crackle.florin.item.custom.PureNailItem;
 import net.crackle.florin.sound.ModSounds;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.UnbreakableComponent;
@@ -31,21 +32,25 @@ public class ModItems {
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item OLD_NAIL = registerItem("old_nail", new SwordItem(ToolMaterials.WOOD,
             new Item.Settings()
+                    .rarity(Rarity.COMMON)
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.WOOD, 3, -2.4f))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
     public static final Item SHARPENED_NAIL = registerItem("sharpened_nail", new SwordItem(ToolMaterials.STONE,
             new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.STONE, 3, -2.4f))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
     public static final Item CHANNELLED_NAIL = registerItem("channelled_nail", new SwordItem(ToolMaterials.IRON,
             new Item.Settings()
+                    .rarity(Rarity.RARE)
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 3, -2.4f))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
     public static final Item COILED_NAIL = registerItem("coiled_nail", new SwordItem(ToolMaterials.DIAMOND,
             new Item.Settings()
+                    .rarity(Rarity.EPIC)
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
-    public static final Item PURE_NAIL = registerItem("pure_nail", new SwordItem(ToolMaterials.NETHERITE,
+    public static final Item PURE_NAIL = registerItem("pure_nail", new PureNailItem(
             new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 3, -2.4f))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
@@ -54,6 +59,8 @@ public class ModItems {
     public static final Item GOLD_COG = registerItem("gold_cog", new Item(new Item.Settings()));
     public static final Item ELECTRONIC_CIRCUIT = registerItem("electronic_circuit", new Item(new Item.Settings()));
     public static final Item BROKEN_ELECTRONIC_CIRCUIT = registerItem("broken_electronic_circuit", new Item(new Item.Settings()));
+    public static final Item ELECTRONIC_DETONATOR = registerItem("electronic_detonator", new Item(new Item.Settings()));
+    public static final Item BROKEN_ELECTRONIC_DETONATOR = registerItem("broken_electronic_detonator", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {

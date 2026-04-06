@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup FLORIN_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Florin.MOD_ID, "florin_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CLOVER))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINEAPPLE))
                     .displayName(Text.translatable("itemgroup.florin.florin_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CAULIFLOWER);
@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ORANGE);
                         entries.add(ModItems.GOLDEN_ORANGE);
                         entries.add(ModItems.ENCHANTED_GOLDEN_ORANGE);
+                        entries.add(ModBlocks.PLATINUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
                         entries.add(ModItems.RAW_PLATINUM);
                         entries.add(ModItems.PLATINUM_INGOT);
                         entries.add(ModItems.CLOVER);
@@ -40,6 +42,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ENCHANTED_GOLDEN_APPLE_CORE);
                         entries.add(ModItems.ELECTRONIC_CIRCUIT);
                         entries.add(ModItems.BROKEN_ELECTRONIC_CIRCUIT);
+                        entries.add(ModItems.ELECTRONIC_DETONATOR);
+                        entries.add(ModItems.BROKEN_ELECTRONIC_DETONATOR);
                     }).build());
 
 

@@ -42,5 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PLATINUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BROKEN_ELECTRONIC_CIRCUIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ELECTRONIC_CIRCUIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROKEN_ELECTRONIC_DETONATOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ELECTRONIC_DETONATOR, Models.GENERATED);
     }
 }
