@@ -11,6 +11,9 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 
 public class ModEffects {
+    public static final RegistryEntry<StatusEffect> LIFEBLOOD = registerStatusEffect("lifeblood",
+            new LifebloodEffect());
+
     public static final RegistryEntry<StatusEffect> WEBBORN = registerStatusEffect("webborn",
             new WebbornEffect(StatusEffectCategory.NEUTRAL, 0xFFFFFF)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,

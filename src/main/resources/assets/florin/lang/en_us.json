@@ -10,11 +10,6 @@
   "item.florin.enchanted_golden_orange": "Enchanted Golden Orange",
   "item.florin.clover": "Four-leaf clover",
   "item.florin.pineapple": "Pineapple",
-  "item.florin.old_nail": "Old Nail",
-  "item.florin.sharpened_nail": "Sharpened Nail",
-  "item.florin.channelled_nail": "Channelled Nail",
-  "item.florin.coiled_nail": "Coiled Nail",
-  "item.florin.pure_nail": "Pure Nail",
   "item.florin.copper_cog": "Copper Cog",
   "item.florin.iron_cog": "Iron Cog",
   "item.florin.gold_cog": "Gold Cog",
@@ -33,6 +28,7 @@
   "item.florin.jingle_bells_music_disc": "Music Disc",
   "item.florin.jingle_bells_music_disc.desc": "James Pierpont - Jingle Bells",
 
+  "effect.florin.lifeblood": "Lifeblood",
   "effect.florin.webborn": "Webborn",
 
   "item.minecraft.potion.effect.webborn_potion": "Potion of Webborn",

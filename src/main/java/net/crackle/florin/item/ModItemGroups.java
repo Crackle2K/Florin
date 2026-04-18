@@ -29,11 +29,6 @@ public class ModItemGroups {
                         entries.add(ModItems.CLOVER);
                         entries.add(ModItems.JINGLE_BELLS_MUSIC_DISC);
                         entries.add(ModItems.PINEAPPLE);
-                        entries.add(ModItems.OLD_NAIL);
-                        entries.add(ModItems.SHARPENED_NAIL);
-                        entries.add(ModItems.CHANNELLED_NAIL);
-                        entries.add(ModItems.COILED_NAIL);
-                        entries.add(ModItems.PURE_NAIL);
                         entries.add(ModItems.COPPER_COG);
                         entries.add(ModItems.IRON_COG);
                         entries.add(ModItems.GOLD_COG);

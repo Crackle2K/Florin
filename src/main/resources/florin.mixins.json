@@ -4,7 +4,11 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"AppleCoreItemMixin"
+		"AppleCoreItemMixin",
+		"AbsorptionStatusEffectMixin"
+	],
+	"client": [
+		"client.InGameHudMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

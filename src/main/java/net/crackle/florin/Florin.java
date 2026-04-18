@@ -8,7 +8,9 @@ import net.crackle.florin.item.ModItems;
 import net.crackle.florin.potion.ModPotions;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
@@ -40,6 +42,14 @@ public class Florin implements ModInitializer {
 
         ModEffects.registerEffects();
         ModPotions.registerPotions();
+
+        // Lifeblood is permanent — re-apply it after the player respawns.
+        ServerPlayerEvents.AFTER_RESPAWN.register((oldPlayer, newPlayer, alive) -> {
+            if (oldPlayer.hasStatusEffect(ModEffects.LIFEBLOOD)) {
+                newPlayer.addStatusEffect(new StatusEffectInstance(
+                        ModEffects.LIFEBLOOD, -1, 0, false, false, true));
+            }
+        });
 
         FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
             builder.registerPotionRecipe(Potions.AWKWARD, Items.STRING, ModPotions.WEBBORN_POTION);

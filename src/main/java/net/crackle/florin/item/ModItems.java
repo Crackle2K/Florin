@@ -5,13 +5,8 @@ import net.crackle.florin.item.custom.CauliflowerItem;
 import net.crackle.florin.item.custom.CloverItem;
 import net.crackle.florin.item.custom.EnchantedAppleCoreItem;
 import net.crackle.florin.item.custom.EnchantedGoldenOrangeItem;
-import net.crackle.florin.item.custom.PureNailItem;
 import net.crackle.florin.sound.ModSounds;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.UnbreakableComponent;
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -30,30 +25,6 @@ public class ModItems {
     public static final Item ENCHANTED_GOLDEN_ORANGE = registerItem("enchanted_golden_orange", new EnchantedGoldenOrangeItem(new Item.Settings().rarity(Rarity.EPIC).food(ModFoodComponents.ENCHANTED_GOLDEN_ORANGE)));
     public static final Item JINGLE_BELLS_MUSIC_DISC = registerItem("jingle_bells_music_disc", new Item(new Item.Settings().jukeboxPlayable(ModSounds.JINGLE_BELLS_KEY).maxCount(1).rarity(Rarity.RARE)));
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
-    public static final Item OLD_NAIL = registerItem("old_nail", new SwordItem(ToolMaterials.WOOD,
-            new Item.Settings()
-                    .rarity(Rarity.COMMON)
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.WOOD, 3, -2.4f))
-                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
-    public static final Item SHARPENED_NAIL = registerItem("sharpened_nail", new SwordItem(ToolMaterials.STONE,
-            new Item.Settings()
-                    .rarity(Rarity.UNCOMMON)
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.STONE, 3, -2.4f))
-                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
-    public static final Item CHANNELLED_NAIL = registerItem("channelled_nail", new SwordItem(ToolMaterials.IRON,
-            new Item.Settings()
-                    .rarity(Rarity.RARE)
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 3, -2.4f))
-                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
-    public static final Item COILED_NAIL = registerItem("coiled_nail", new SwordItem(ToolMaterials.DIAMOND,
-            new Item.Settings()
-                    .rarity(Rarity.EPIC)
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))
-                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
-    public static final Item PURE_NAIL = registerItem("pure_nail", new PureNailItem(
-            new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 3, -2.4f))
-                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(false))));
     public static final Item COPPER_COG = registerItem("copper_cog", new Item(new Item.Settings()));
     public static final Item IRON_COG = registerItem("iron_cog", new Item(new Item.Settings()));
     public static final Item GOLD_COG = registerItem("gold_cog", new Item(new Item.Settings()));
