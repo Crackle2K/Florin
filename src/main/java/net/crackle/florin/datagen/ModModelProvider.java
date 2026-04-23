@@ -24,8 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GOLDEN_ORANGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENCHANTED_GOLDEN_ORANGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CLOVER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.APPLE_CORE, Models.GENERATED);
+itemModelGenerator.register(ModItems.APPLE_CORE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLDEN_APPLE_CORE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENCHANTED_GOLDEN_APPLE_CORE, Models.GENERATED);
         itemModelGenerator.register(ModItems.JINGLE_BELLS_MUSIC_DISC, Models.GENERATED);
@@ -39,5 +38,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ELECTRONIC_CIRCUIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BROKEN_ELECTRONIC_DETONATOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.ELECTRONIC_DETONATOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OLD_BONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LIFESEED, Models.GENERATED);
     }
 }

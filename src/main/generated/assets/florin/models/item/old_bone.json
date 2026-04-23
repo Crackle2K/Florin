@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "florin:item/clover"
+    "layer0": "florin:item/old_bone"
   }
 }

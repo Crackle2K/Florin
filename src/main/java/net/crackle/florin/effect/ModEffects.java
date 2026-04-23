@@ -11,19 +11,16 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 
 public class ModEffects {
-    public static final RegistryEntry<StatusEffect> LIFEBLOOD = registerStatusEffect("lifeblood",
-            new LifebloodEffect());
-
     public static final RegistryEntry<StatusEffect> WEBBORN = registerStatusEffect("webborn",
             new WebbornEffect(StatusEffectCategory.NEUTRAL, 0xFFFFFF)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
-                            Identifier.of(Florin.MOD_ID, "webborn"), -0.25f,
+                            Identifier.of(Florin.MOD_ID, "webborn"), +0.5f,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL)
                     .addAttributeModifier(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE,
                             Identifier.of(Florin.MOD_ID, "webborn"), -0.25f,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL)
                     .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_DAMAGE,
-                            Identifier.of(Florin.MOD_ID, "webborn"), 0.15f,
+                            Identifier.of(Florin.MOD_ID, "webborn"), -0.15f,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
 

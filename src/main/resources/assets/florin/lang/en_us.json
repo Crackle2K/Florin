@@ -8,8 +8,7 @@
   "item.florin.orange": "Orange",
   "item.florin.golden_orange": "Golden Orange",
   "item.florin.enchanted_golden_orange": "Enchanted Golden Orange",
-  "item.florin.clover": "Four-leaf clover",
-  "item.florin.pineapple": "Pineapple",
+"item.florin.pineapple": "Pineapple",
   "item.florin.copper_cog": "Copper Cog",
   "item.florin.iron_cog": "Iron Cog",
   "item.florin.gold_cog": "Gold Cog",
@@ -19,8 +18,10 @@
   "item.florin.broken_electronic_circuit": "Broken Circuit Board",
   "item.florin.electronic_detonator": "Electronic Detonator",
   "item.florin.broken_electronic_detonator": "Broken Electronic Detonator",
-
-  "block.florin.platinum_ore": "Platinum Ore",
+  "item.florin.lifeseed": "Lifeseed",
+  "item.florin.old_bone": "Old Bone",
+  "item.florin.bane": "Bane",
+"block.florin.platinum_ore": "Platinum Ore",
   "block.florin.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
   "itemgroup.florin.florin_items": "Florin",
@@ -28,7 +29,8 @@
   "item.florin.jingle_bells_music_disc": "Music Disc",
   "item.florin.jingle_bells_music_disc.desc": "James Pierpont - Jingle Bells",
 
-  "effect.florin.lifeblood": "Lifeblood",
+  "enchantment.florin.thunderbolt": "Thunderbolt",
+
   "effect.florin.webborn": "Webborn",
 
   "item.minecraft.potion.effect.webborn_potion": "Potion of Webborn",

@@ -1,13 +1,11 @@
 package net.crackle.florin.mixin.client;
 
-import net.crackle.florin.effect.LifebloodEffect;
-import net.crackle.florin.effect.ModEffects;
+import net.crackle.florin.util.LifebloodManager;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.hud.InGameHud;
-import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
@@ -33,9 +31,8 @@ public class InGameHudMixin {
             int x, int y, int lines, int regeneratingHeartIndex, float maxHealth,
             int lastHealth, int health, int absorption, boolean blinking, CallbackInfo ci) {
         MinecraftClient client = MinecraftClient.getInstance();
-        if (client.player != null && client.player.hasStatusEffect(ModEffects.LIFEBLOOD)) {
-            StatusEffectInstance instance = client.player.getStatusEffect(ModEffects.LIFEBLOOD);
-            lifebloodHalfHearts = (int)(LifebloodEffect.LIFEBLOOD_ABSORPTION * (instance.getAmplifier() + 1));
+        if (client.player != null) {
+            lifebloodHalfHearts = (int) LifebloodManager.getLifebloodAmount(client.player);
         } else {
             lifebloodHalfHearts = 0;
         }

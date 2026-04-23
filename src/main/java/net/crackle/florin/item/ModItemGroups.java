@@ -26,8 +26,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
                         entries.add(ModItems.RAW_PLATINUM);
                         entries.add(ModItems.PLATINUM_INGOT);
-                        entries.add(ModItems.CLOVER);
-                        entries.add(ModItems.JINGLE_BELLS_MUSIC_DISC);
+entries.add(ModItems.JINGLE_BELLS_MUSIC_DISC);
                         entries.add(ModItems.PINEAPPLE);
                         entries.add(ModItems.COPPER_COG);
                         entries.add(ModItems.IRON_COG);
@@ -39,6 +38,9 @@ public class ModItemGroups {
                         entries.add(ModItems.BROKEN_ELECTRONIC_CIRCUIT);
                         entries.add(ModItems.ELECTRONIC_DETONATOR);
                         entries.add(ModItems.BROKEN_ELECTRONIC_DETONATOR);
+                        entries.add(ModItems.LIFESEED);
+entries.add(ModItems.OLD_BONE);
+                        entries.add(ModItems.BANE);
                     }).build());
 
 
