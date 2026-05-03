@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "stage=0": { "model": "florin:block/grey_birch_sapling" },
+    "stage=1": { "model": "florin:block/grey_birch_sapling" }
+  }
+}

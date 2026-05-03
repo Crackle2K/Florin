@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "florin:block/grey_birch_sapling"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "florin:block/grey_birch_leaves"
+  }
+}

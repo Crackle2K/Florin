@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "florin:block/stripped_grey_birch_log_top",
+    "side": "florin:block/stripped_grey_birch_log"
+  }
+}

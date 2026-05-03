@@ -36,33 +36,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ORANGE), conditionsFromItem(ModItems.ORANGE))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_COG)
-                .pattern(" I ")
-                .pattern("IBI")
-                .pattern(" I ")
-                .input('I', Items.COPPER_INGOT)
-                .input('B', BUTTONS)
-                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
-                .offerTo(exporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRON_COG)
-                .pattern(" I ")
-                .pattern("IBI")
-                .pattern(" I ")
-                .input('I', Items.IRON_INGOT)
-                .input('B', BUTTONS)
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(exporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GOLD_COG)
-                .pattern(" I ")
-                .pattern("IBI")
-                .pattern(" I ")
-                .input('I', Items.GOLD_INGOT)
-                .input('B', BUTTONS)
-                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
-                .offerTo(exporter);
-
         CookingRecipeJsonBuilder.createSmelting(
                         Ingredient.ofItems(ModItems.RAW_PLATINUM),
                         RecipeCategory.MISC,
